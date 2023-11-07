@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react';
 
 
-export default function ParseResult() {
+export default function OrderBookResult() {
     const router = useRouter();
     const [loading, setLoading] = useState(true);
     const [rowsArray,setRowsArray]=useState([]);

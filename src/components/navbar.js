@@ -25,7 +25,7 @@ export default function TopAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1, letterSpacing: "0.1rem", color: theme.palette.primary.main , cursor:'pointer'}} onClick={() => { router.push('/') }}>
-            JD<span style={{ fontWeight: "lighter" }}>Parser</span>
+            OBP
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
