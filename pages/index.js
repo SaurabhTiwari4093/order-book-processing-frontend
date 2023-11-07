@@ -23,10 +23,10 @@ export default function Index() {
         .then((data) => {
           if (data.status === 200) {
             console.log(data.message)
-            // router.push({
-            //   pathname:'/orderBook',
-            //   query:{keywords:data.pdfText}
-            // })
+            router.push({
+              pathname:'/orderBook',
+              query:{orderBookResult:data.message}
+            })
             setLoading(false);
           }
           else {
